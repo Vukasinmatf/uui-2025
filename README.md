@@ -15,7 +15,7 @@ Sve izmene se rade preko GitHub-a. Direktan rad na glavnoj grani (`main`) **nije
 2. Napravite nalog koristeći **fakultetski mejl**:
 ```
 
-[ime.prezime@alas.matf.bg.ac.rs](mailto:ime.prezime@alas.matf.bg.ac.rs)
+[indeks@alas.matf.bg.ac.rs]
 
 ````
 3. Zapamtite svoje **GitHub korisničko ime** – koristićete ga u projektu.
@@ -264,6 +264,8 @@ Nevalidan review je:
 
 ---
 
-Ovaj proces je identičan onome što se koristi u realnim softverskim timovima.
+Ovaj proces je sličan onome što se koristi u realnim softverskim timovima
+(prekočili smo korak `rebase`, koji se obično izvodi ali svi ostali koraci su
+tu).
 
 
