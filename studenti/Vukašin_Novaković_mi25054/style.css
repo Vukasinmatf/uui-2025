@@ -1,76 +1,117 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 20px;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
 }
 
+/* NAVIGACIJA */
 nav {
-    background-color: #333;
-    padding: 10px;
+    background-color: #003366;
+    padding: 15px;
+    text-align: center;
 }
 
 nav a {
     color: white;
-    margin-right: 15px;
+    margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-h1 {
+/* HERO SEKCIJA */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    background-color: white;
+}
+
+.hero img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* SEKCIJE */
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2, h3 {
     color: #003366;
 }
 
-img {
-    width: 300px;
-    border: 2px solid #333;
-}
-
+/* TABELA */
 table {
+    width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
-table, th, td {
-    border: 1px solid black;
-    padding: 5px;
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #e6eef7;
+}
+
+/* FAKULTET */
+.faculty {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.faculty-images img {
+    width: 180px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* KONTAKT */
+.contact {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
 }
 
 button {
+    margin-top: 20px;
+    padding: 10px;
     background-color: #003366;
     color: white;
-    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
 }
 
-    margin-top: 0;
-    font-size: 1.8rem;
-}
-
-p {
-    color: #555;
-}
-
-ul.students {
-    list-style: none;
-    padding: 0;
-}
-
-ul.students li {
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
-}
-
-ul.students li:last-child {
-    border-bottom: none;
-}
-
-ul.students a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-ul.students a:hover {
-    text-decoration: underline;
+button:hover {
+    background-color: #0055aa;
 }
