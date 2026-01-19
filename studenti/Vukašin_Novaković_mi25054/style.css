@@ -46,17 +46,17 @@ nav a:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.profile-card img {
+.profil img {
     width: 180px;
     border-radius: 12px;
     border: 2px solid #003366;
 }
 
-.profile-text h1 {
+.tekstosebi h1 {
     margin-top: 0;
 }
 
-.profile-text h2 {
+.tekstosebi h2 {
     margin-bottom: 10px;
     color: #0055aa;
 }
